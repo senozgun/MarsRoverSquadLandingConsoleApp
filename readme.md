@@ -19,4 +19,4 @@ Expected Output:
 1 3 N
 5 1 E
 
-To start the Landing Operations write 'land' then enter on console
+To start the Landing Operations enter 'land' on console
