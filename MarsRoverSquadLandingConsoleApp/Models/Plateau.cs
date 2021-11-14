@@ -7,7 +7,14 @@ namespace MarsRoverSquadLandingConsoleApp.Models
     /// </summary>
     public class Plateau
     {
+        /// <summary>
+        /// Upper Right X value of the plateau
+        /// </summary>
         public int MaxX { get; set; }
+
+        /// <summary>
+        /// Upper Right Y value of the plateau
+        /// </summary>
         public int MaxY { get; set; }
 
         public Plateau(int maxX, int maxY)

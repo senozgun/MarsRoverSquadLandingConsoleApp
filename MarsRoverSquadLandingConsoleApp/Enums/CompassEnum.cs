@@ -2,9 +2,21 @@
 {
     public enum CompassEnum
     {
-        N, //North
-        S, //South
-        W, //West
-        E  //East
+        /// <summary>
+        /// NORTH
+        /// </summary>
+        N,
+        /// <summary>
+        /// SOUTH
+        /// </summary>
+        S,
+        /// <summary>
+        /// WEST
+        /// </summary>
+        W,
+        /// <summary>
+        /// EAST
+        /// </summary>
+        E
     }
 }
