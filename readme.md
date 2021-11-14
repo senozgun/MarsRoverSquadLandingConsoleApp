@@ -1,10 +1,10 @@
 #TITLE
 Mars Rover Squad Landing Console App
 
-DESCRIPTION
+##DESCRIPTION
 This is a Case Study For Mars Rover Landing
 
-REQUIREMENTS
+###REQUIREMENTS
 This project requires .Net 5.0 and Visual Studio 2019 
 
 EXAMPLE INPUT
