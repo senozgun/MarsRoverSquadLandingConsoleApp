@@ -1,4 +1,6 @@
-﻿namespace MarsRoverSquadLandingConsoleApp
+﻿using System.Threading.Tasks;
+
+namespace MarsRoverSquadLandingConsoleApp
 {
     /// <summary>
     /// Interface of Rover Landing Service

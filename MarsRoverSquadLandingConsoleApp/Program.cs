@@ -2,7 +2,9 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Serilog;
+using System;
 using System.Diagnostics;
+using System.Threading.Tasks;
 
 namespace MarsRoverSquadLandingConsoleApp
 {
@@ -35,7 +37,7 @@ namespace MarsRoverSquadLandingConsoleApp
         {
             if (!Debugger.IsAttached)
             {
-                throw new Exception("Settings file not found (e.g. appsettings.json)");
+                throw new Exception("appsettings.json file not found");
             }
 
             var settingsFileName = Debugger.IsAttached && args.Length == 0 ? "appsettings.json" : args[0];

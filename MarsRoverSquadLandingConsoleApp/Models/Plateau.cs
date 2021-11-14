@@ -1,4 +1,6 @@
-﻿namespace MarsRoverSquadLandingConsoleApp.Models
+﻿using System;
+
+namespace MarsRoverSquadLandingConsoleApp.Models
 {
     /// <summary>
     /// Plateau object and its props
